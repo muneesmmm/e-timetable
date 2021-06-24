@@ -1,5 +1,5 @@
 body {
-  background-color: #051428;
+  background-color: lightsteelblue;
 }
 
 .App {
@@ -9,8 +9,7 @@ body {
 .AppBar {
   background-color: #051428;
   padding: 10px;
-  border-bottom-right-radius: 40px;
-  border-bottom-left-radius: 40px;
+
 }
 
 .classname {
