@@ -1,0 +1,192 @@
+{
+    "monday": 
+    {
+        "h1":{
+            "fullname":"Adv Database Management System",
+            "shortname":"ADBMS",
+            "teacher":"Geever Sir",
+            "platform":"Meet",
+            "link":"https://meet.google.com"
+        },
+        "h2":{
+            "fullname":"AS/OB/AOS",
+            "shortname":"ELC1",
+            "teacher":"MNSP/PJD/VTV",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h3":{
+            "fullname":"Network Lab",
+            "shortname":"N&S",
+            "teacher":"Febin Miss",
+            "platform":"Meet",
+            "link":""
+        },
+        "h4":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"        },
+        "h5":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"        }
+    },
+    "tuesday": 
+    {
+        "h1":{
+            "fullname":"Advanced Computer Network",
+            "shortname":"ACN",
+            "teacher":"Febin miss",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h2":{
+            "fullname":"CG/AI/IPR",
+            "shortname":"ELC2",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h3":{
+            "fullname":"OOP LAB",
+            "shortname":"OOP",
+            "teacher":"Firoz Sir",
+            "platform":"Drive",
+            "link":"https://drive.google.com/drive/folders/1EB9Jv73qTRj-v4dXhHL-_7bWiaQlKO_i?usp=sharing"
+        },
+        "h4":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"
+        },
+        "h5":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"        }
+    },
+    "wednessday": 
+    {
+        "h1":{
+            "fullname":"CG/AI/IPR",
+            "shortname":"ELC2",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h2":{
+            "fullname":"Advanced Computer Network",
+            "shortname":"ACN",
+            "teacher":"Febin miss",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h3":{
+            "fullname":"Adv Database Management System",
+            "shortname":"ADBMS",
+            "teacher":"Geever Sir",
+            "platform":"Meet",
+            "link":"https://meet.google.com"
+        },
+        "h4":{
+            "fullname":"AS/OB/AOS",
+            "shortname":"ELC1",
+            "teacher":"MNSP/PJD/VTV",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h5":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"
+        }
+    },
+    "thursday": 
+    {
+        "h1":{
+            "fullname":"Adv Database Management System",
+            "shortname":"ADBMS",
+            "teacher":"Geever Sir",
+            "platform":"Meet",
+            "link":"https://meet.google.com"
+        },
+        "h2":{
+            "fullname":"Advanced Computer Network",
+            "shortname":"ACN",
+            "teacher":"Febin miss",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h3":{
+            "fullname":"CG/AI/IPR",
+            "shortname":"ELC2",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h4":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"
+        },
+        "h5":{
+            "fullname":"AS/OB/AOS",
+            "shortname":"ELC1",
+            "teacher":"MNSP/PJD/VTV",
+            "platform":"Meet",
+            "link":"#lang"
+        }
+    },
+    "friday": 
+    {
+        "h1":{
+            "fullname":"CG/AI/IPR",
+            "shortname":"ELC2",
+            "teacher":" ",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h2":{
+            "fullname":"Adv Database Management System",
+            "shortname":"ADBMS",
+            "teacher":"Geever Sir",
+            "platform":"Meet",
+            "link":"https://meet.google.com"
+        },
+        "h3":{
+            "fullname":"AS/OB/AOS",
+            "shortname":"ELC1",
+            "teacher":"MNSP/PJD/VTV",
+            "platform":"Meet",
+            "link":"#lang"
+        },
+        "h4":{
+            "fullname":"Advanced Computer Network",
+            "shortname":"ACN",
+            "teacher":"Febin miss",
+            "platform":"Meet",
+            "link":"https://meet.google.com/qmx-vgqb-etg"
+        },
+        "h5":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"
+        }
+    },
+    "lang":{
+        "available":"yes"
+    }
+}
