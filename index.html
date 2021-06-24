@@ -149,7 +149,76 @@
       </div>
     </div>
     <!--table ends-->
+    
+    <!--language starts-->
+    <div class="row languages" id="languages" style="padding-bottom: 25px;">
+      <a name="lang">
+        <div class="col-xs-12 ">
+          <p class="heading-secondary">Electives</p>
+        </div>
+      </a>
+      <!--language cards-->
+      <div class="today-cards" id="lang-cards">
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-4 card-left" id="lcardleft1" style="background-color:#8b93dd;">
+            <p class="subject" id="ob"  style="padding-top: 12px;">OB-164</p>
+          </div>
+          <div class="col-xs-4" style="background-color: #8b93dd;padding-top: 18px;height: 70px;">
+            <a href="https://classroom.google.com/u/0/c/MzI3OTg1ODM5OTA4"><button class="btn linkbtn" id="malayalamc-link">GC</button></a>
+          </div>
+          <div class="col-xs-4 card-right" id="lcardright1" style="background-color: #8b93dd;">
+            <a href="https://meet.google.com/hdm-wuto-ibb"><button class="btn linkbtn" id="malayalam-link">Meet</button></a>
+          </div>
+        </div>
 
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-4 card-left" id="lcardleft2" style="background-color: #8b93dd;">
+            <p class="subject" id="cg"  style="padding-top: 12px;">Computer Graphics</p>
+          </div>
+          <div class="col-xs-4" style="background-color: #8b93dd;padding-top: 18px;height: 70px;">
+            <a href="https://classroom.google.com/u/0/c/MzI2NTE1NDU3OTE1"><button class="btn linkbtn" id="hindic-link">GC</button></a>
+          </div>
+          <div class="col-xs-4 card-right" id="lcardright2" style="background-color: #8b93dd;">
+            <a href="https://meet.google.com/ntw-poqz-gba"><button class="btn linkbtn" id="hindim-link">Meet</button></a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-4 card-left" id="lcardleft3" style="background-color: #8b93dd;">
+            <p class="subject" id="arabic" style="padding-top: 12px;">IPR</p>
+          </div>
+          <div class="col-xs-4" style="background-color: #8b93dd;padding-top: 18px;height: 70px;">
+            <a href=""><button class="btn linkbtn" id="arabicc-link">GC</button></a>
+          </div>
+          <div class="col-xs-4  card-right" id="lcardright3" style="background-color: #8b93dd;">
+            <a href=""><button class="btn linkbtn" id="arabicm-link">Meet</button></a>
+          </div>
+        </div>
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-4 card-left" id="lcardleft3" style="background-color: #8b93dd;">
+            <p class="subject" id="arabic" style="padding-top: 12px;">AOS</p>
+          </div>
+          <div class="col-xs-4" style="background-color: #8b93dd;padding-top: 18px;height: 70px;">
+            <a href=""><button class="btn linkbtn" id="arabicc-link">GC</button></a>
+          </div>
+          <div class="col-xs-4  card-right" id="lcardright3" style="background-color: #8b93dd;">
+            <a href=""><button class="btn linkbtn" id="arabicm-link">Meet</button></a>
+          </div>
+        </div>
+        <div class="col-xs-12 today-card">        
+          <div class="col-xs-4 card-left" id="lcardleft3" style="background-color: #8b93dd;">
+            <p class="subject" id="arabic" style="padding-top: 12px;">AI</p>
+          </div>
+          <div class="col-xs-4" style="background-color: #8b93dd;padding-top: 18px;height: 70px;">
+            <a href=""><button class="btn linkbtn" id="arabicc-link">GC</button></a>
+          </div>
+          <div class="col-xs-4  card-right" id="lcardright3" style="background-color: #8b93dd;">
+            <a href=""><button class="btn linkbtn" id="arabicm-link">Drive</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--language ends-->
 
 
     <!--credit-->
@@ -450,21 +519,9 @@
     
     url = 'https://muneesmmm.github.io/e-timetable/data/mca.json';
     console.log(url);
-    if((classname=='bcs')&&(year=='1')){
-      document.getElementById('classname').innerText='BSc CS - 1';
-    }else if((classname=='bcs')&&(year=='2')){
-      document.getElementById('classname').innerText='BSc CS - 4';
-    }else if((classname=='bcs')&&(year=='3')){
-      document.getElementById('classname').innerText='BSc CS - 6';
-    }else if((classname=='bca')&&(year=='1')){
-      document.getElementById('classname').innerText='BCA - 1';
-    }else if((classname=='bca')&&(year=='2')){
-      document.getElementById('classname').innerText='BCA - 4';
-    }else if((classname=='bca')&&(year=='3')){
-      document.getElementById('classname').innerText='BCA - 6';
-    }else{
-      document.getElementById('classname').innerText='Invalid';
-    }
+   
+      document.getElementById('classname').innerText='MCA';
+    
 
   }
   function onGoing(){
