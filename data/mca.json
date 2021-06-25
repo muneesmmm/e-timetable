@@ -186,6 +186,42 @@
             "link":"#"
         }
     },
+    "saturday": 
+    {
+        "h1":{
+            "fullname":"ADBMS",
+            "shortname":"ADBMS",
+            "teacher":"Geever Sir",
+            "platform":"Meet",
+            "link":"https://meet.google.com"
+        },
+        "h2":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"
+        },
+        "h3":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"
+        },
+        "h4":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"        },
+        "h5":{
+            "fullname":".....",
+            "shortname":".....",
+            "teacher":".....",
+            "platform":".....",
+            "link":"#"        }
+    },
     "lang":{
         "available":"yes"
     }
