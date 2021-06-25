@@ -546,6 +546,12 @@
     document.getElementById('s23').innerText = data.friday.h3.shortname;
     document.getElementById('s24').innerText = data.friday.h4.shortname;
     document.getElementById('s25').innerText = data.friday.h5.shortname;
+
+    document.getElementById('s26').innerText = data.saturday.h1.shortname;
+    document.getElementById('s27').innerText = data.saturday.h2.shortname;
+    document.getElementById('s28').innerText = data.saturday.h3.shortname;
+    document.getElementById('s29').innerText = data.saturday.h4.shortname;
+    document.getElementById('s30').innerText = data.saturday.h5.shortname;
       loadComplete();
     });
       
@@ -575,7 +581,7 @@
       minute=10;
     }
     let time = hour+''+minute;
-    if((day>0)&&(day<5)){
+    if((day>0)&&(day<6)){
       if((time>929)&&(time<1031)){
         hr1();
       }else if((time>1029)&&(time<1131)){
@@ -589,7 +595,7 @@
       }else{
         noHour();
       }
-    }else if(day==5){
+    }else if(day==6){
       if((time>929)&&(time<1031)){
         hr1();
       }else if((time>1029)&&(time<1131)){
