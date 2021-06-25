@@ -146,6 +146,14 @@
             <td class="d" id="s24"></th>
             <td class="d" id="s25"></th>
           </tr>
+          <tr>
+            <td class="h">Sat</th>
+            <td class="d" id="s26"></th>
+            <td class="d" id="s27"></th>
+            <td class="d" id="s28"></th>
+            <td class="d" id="s29"></th>
+            <td class="d" id="s30"></th>
+          </tr>
         </table>
       </div>
     </div>
@@ -423,6 +431,37 @@
                   document.getElementById('b5').innerText='GC';
                 }
                 break;
+                case 6 :  document.getElementById('todaySub1').innerText = data.saturday.h1.fullname;
+                document.getElementById('todaytech1').innerText = data.saturday.h1.teacher;
+                document.getElementById('todayLink1').setAttribute("href", data.saturday.h1.link);
+                document.getElementById('todaySub2').innerText = data.saturday.h2.fullname;
+                document.getElementById('todaytech2').innerText = data.saturday.h2.teacher;
+                document.getElementById('todayLink2').setAttribute("href", data.saturday.h2.link);
+                document.getElementById('todaySub3').innerText = data.saturday.h3.fullname;
+                document.getElementById('todaytech3').innerText = data.saturday.h3.teacher;
+                document.getElementById('todayLink3').setAttribute("href", data.saturday.h3.link);
+                document.getElementById('todaySub4').innerText = data.saturday.h4.fullname;
+                document.getElementById('todaytech4').innerText = data.saturday.h4.teacher;
+                document.getElementById('todayLink4').setAttribute("href", data.saturday.h4.link);
+                document.getElementById('todaySub5').innerText = data.saturday.h5.fullname;
+                document.getElementById('todaytech5').innerText = data.saturday.h5.teacher;
+                document.getElementById('todayLink5').setAttribute("href", data.saturday.h5.link);
+                if(data.friday.h1.platform == 'Classroom'){
+                  document.getElementById('b1').innerText='GC';
+                }
+                if(data.friday.h2.platform == 'Classroom'){
+                  document.getElementById('b2').innerText='GC';
+                }
+                if(data.friday.h3.platform == 'Classroom'){
+                  document.getElementById('b3').innerText='GC';
+                }
+                if(data.friday.h4.platform == 'Classroom'){
+                  document.getElementById('b4').innerText='GC';
+                }
+                if(data.friday.h5.platform == 'Classroom'){
+                  document.getElementById('b5').innerText='GC';
+                }
+                break;
      }
 
     document.getElementById('s1').innerText = data.monday.h1.shortname;
@@ -454,6 +493,12 @@
     document.getElementById('s23').innerText = data.friday.h3.shortname;
     document.getElementById('s24').innerText = data.friday.h4.shortname;
     document.getElementById('s25').innerText = data.friday.h5.shortname;
+
+    document.getElementById('s26').innerText = data.saturday.h1.shortname;
+    document.getElementById('s27').innerText = data.saturday.h2.shortname;
+    document.getElementById('s28').innerText = data.saturday.h3.shortname;
+    document.getElementById('s29').innerText = data.saturday.h4.shortname;
+    document.getElementById('s30').innerText = data.saturday.h5.shortname;
     
     loadComplete();
     });
