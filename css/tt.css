@@ -9,6 +9,8 @@ body {
 .AppBar {
   background-color: #051428;
   padding: 10px;
+  border-bottom-left-radius: 20rem;
+  border-bottom-right-radius:20rem ;
 
 }
 
