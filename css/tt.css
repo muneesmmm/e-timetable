@@ -1,6 +1,9 @@
 body {
   background-color: lightsteelblue;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+
 
 .App {
   background-color: lightsteelblue;
